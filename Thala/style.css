@@ -1,0 +1,91 @@
+#outer{
+    /* background-color: rgb(50, 49, 49); */
+    height: 690px;
+    width: 100%;
+    border: 2px solid white;
+    background-image: url(ms-dhoni.jpg);
+    
+}
+
+
+#container{
+    border: 4px solid blue;
+    height: 250px;
+    width: 350px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    border-radius:10px ;
+    backdrop-filter: blur(4px);
+}
+
+#inputbox{
+    
+    margin-top: 15px;
+   padding: 10px;
+   width: 200px;
+   border: 2px solid black;
+   border-radius: 8px;
+   background-color: rgb(196, 188, 188);
+}
+
+#button{
+    margin-top: 20px;
+    padding: 4px;
+    width: 70px;
+   background-color: rgb(196, 188, 188);
+}
+
+#button:hover{
+    background: black;
+    color: white;
+}
+
+
+#videoPlayer{
+    /* margin: auto; */
+    display: none;
+}
+
+#res{
+    width: fit-content;
+    color: blue;
+    font-size: larger;
+    display:none;
+    /* margin: auto; */
+    margin-right: 50px;
+}
+
+#result{
+    display: flex;
+}
+
+#res-r{
+    width: fit-content;
+    color: blue;
+    font-size: larger;
+    display:none;
+    margin-left: 50px;
+}
+
+#wrongans{
+    background: lightblue;
+    font-size: 90px;
+    color: blue;
+    display: none;
+    font-weight: bolder;
+
+    
+    width: fit-content;
+    margin: auto;
+    /* margin-top: 200px; */
+
+    padding: 20px;
+}
+
+#dhoniSad{
+    height: 550px;
+    /* width: 400px; */
+    margin: auto;
+    display: none;
+}
